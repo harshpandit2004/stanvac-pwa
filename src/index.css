@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* {
+  text-align: center;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+} */
+.navbar {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #fb892e;
+}
+.Primary-Header {
+  text-align: center;
+  width: 459px;
+  height: 816px;
+  padding: 2rem;
+}
+.content {
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+
+.NotificationsPage {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.money {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.money-head {
+  font-weight: 500;
+}
+.money-tail {
+  font-weight: 200;
+}
+
+.card-wala-div {
+  display: flex;
+  background-image: url("./photo-1618005182384-a83a8bd57fbe.jpeg");
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: flex-start;
+  justify-content: center;
+  align-items: flex-start;
+  border-radius: 0.5rem;
+  margin: 1rem;
+  color: white;
+  padding: 1.5rem;
+}
+
+.features-ka-joda{
+  border: 2px solid #f7e6d7;
+  border-radius: .5rem;
+  margin: 1rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.FeatureSq{
+  margin: .5rem;
+}
+.ScanQR{
+  background-color: #fb892e;
+  color: #ffffff;
+  padding: 1rem;
+  margin: none;
+  border: none;
+  border-radius: 2rem;
+}
+
+.foot{
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: #e9f3ff;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.foot-CC{
+  background-color: #ffffff;
+  padding: 1rem;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.foot-stuff{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.foot-title{
+  font-size: smaller;
+}
